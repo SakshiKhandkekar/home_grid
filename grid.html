@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+  .container{
+    background-color: rgb(183, 211, 202);
+    color: brown;
+    width: 600px;
+    
+    margin: 70px 0px 0px 70px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 50px;
+
+
+    /*    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+          grid-template-columns: 300px 300px   as per width you can divide;*/
+
+
+    grid-template-rows: 200px 200px auto;     /* auto adjust*/
+
+    /* grid-template-rows: 200px 200px 200px; */
+
+    grid-row-gap: 50px;
+  }
+
+  .item1{
+    
+     background-color: blue;
+
+  }
+  .item2{
+     background-color: rgb(236, 91, 91);
+
+  }
+
+  .item3{
+     background-color: rgb(44, 207, 82);
+
+  }
+
+  .item4{
+     background-color: rgb(230, 65, 208);
+
+  }
+
+  .item5{
+     background-color: rgb(221, 244, 77);
+
+  }
+
+  .item6{
+     background-color: rgb(234, 135, 37);
+
+  }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item1">1st</div>
+        <div class="item2">2nd</div>
+        <div class="item3">3rd</div>
+        <div class="item4">4th</div>
+        <div class="item5">5th</div>
+        <div class="item6">6th</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: black;
+}
+h2{color: blanchedalmond;}
+
+#mydiv{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(231, 75, 75);
+    margin: 20%;
+    transition-property: width,height,baground-color;
+    /*transition-property:height;
+    transition-property: width;*/
+    transition-duration: 2s;
+    transition: all 3s;
+     transition-timing-function: steps(3);
+
+   /* 
+       transition-delay: 2s;
+       transition-timing-function: ease-in;
+       transition-timing-function: ease-out;  */
+
+}
+
+#mydiv:hover{
+    background-color: rgb(130, 238, 238);
+    width: 400px;
+    height: 500px;
+}
+    </style>
+</head>
+<body>
+    <h2>hello</h2>
+
+    <div id="mydiv"></div>
+
+
+</body>
+</html>
